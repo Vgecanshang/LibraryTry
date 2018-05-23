@@ -10,4 +10,11 @@ public class LibraryToastUtil {
     public static void showToast(Context context , String str){
         Toast.makeText(context , str , Toast.LENGTH_LONG).show();
     }
+
+
+    public static void showToast(Context context , String str , int duration){
+        Toast.makeText(context , str , duration).show();
+    }
+
+
 }
