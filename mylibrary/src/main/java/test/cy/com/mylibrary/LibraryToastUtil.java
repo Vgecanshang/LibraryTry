@@ -8,6 +8,6 @@ import android.widget.Toast;
  */
 public class LibraryToastUtil {
     public static void showToast(Context context , String str){
-        Toast.makeText(context , str , Toast.LENGTH_LONG);
+        Toast.makeText(context , str , Toast.LENGTH_LONG).show();
     }
 }
